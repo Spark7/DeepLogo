@@ -51,7 +51,7 @@ Belows are detection examples.
 6. Training logo detector using pre-trained SSD.
    ```bash
    $ ln -s <OBJECT_DETECTION_API_DIR>/ssd_inception_v2_coco_2018_01_28 ssd_inception_v2_coco_2018_01_28
-   $ python <OBJECT_DETECTION_API_DIR>/legacy/train.py --logtostderr --pipeline_config_path=ssd_inception_v2.config --train_dir=training
+   $ python <OBJECT_DETECTION_API_DIR>/legacy/train.py --logtostderr --pipeline_config_path=ssd_inception_v2_coco.config --train_dir=training
    ```
    <OBJECT_DETECTION_API_DIR> is the absolute path of models/research/object_detection at step1.
 
